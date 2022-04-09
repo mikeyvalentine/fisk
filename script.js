@@ -1,4 +1,4 @@
-const html = document.documentElement;
+/*const html = document.documentElement;
 const canvas = document.getElementById("b");
 const context = canvas.getContext("2d");
 
@@ -26,7 +26,6 @@ const updateImage = index => {
   img.src = currentFrame(index);
   context.drawImage(img, 0, 0);
 }
-
 window.addEventListener('scroll', () => {  
   const scrollTop = html.scrollTop;
   const maxScrollTop = html.scrollHeight - window.innerHeight;
@@ -40,3 +39,11 @@ window.addEventListener('scroll', () => {
 });
 
 preloadImages()
+*/
+
+
+const scroller = document.getElementById('scroller');
+scroller.addEventListener('click', function(){
+  document.body.scrollTop=0;
+  document.documentElement.scrollTop=0;
+});

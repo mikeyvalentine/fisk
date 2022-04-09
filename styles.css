@@ -125,10 +125,10 @@ img{
 #menu video:hover{
     box-shadow: 0px 0px 200px yellow;
     border-radius: 100px;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 #menu img:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
     border-radius: 100px;
     box-shadow: 0px 0px 200px yellow;
 }
@@ -168,6 +168,7 @@ canvas {
 #link:hover{
     text-shadow: 0px 0px 5px #7fff00;
     color: #7fff00;
+    cursor: pointer;
 }
 #display video, #display img{
     width: 70vw;
@@ -175,11 +176,61 @@ canvas {
     box-shadow: 1px 1px 10px black;
     border-radius: 5px;
 }
-
 #text{
     width: 70vw;
     max-width: 800px;
-    border: 1px solid black;
     border-radius: 10px;
     font-size: 1.5em;
 }
+#cred{
+    margin-top: 100px;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+    color: grey;
+}
+#cred a{
+    color: grey;
+}
+#scroller{
+    text-align: center;
+    padding: none;
+    font-size: 2em;
+    font-weight: bold;
+    transition: all .3s;
+    margin-bottom: 100px;
+}
+#scroller:hover{
+    transform: scaleY(2);
+    cursor: pointer;
+    border-radius: 20px;
+    background-color:rgb(245, 206, 255);
+    box-shadow: 0px 0px 10px rgb(245, 206, 255);
+}
+span{
+    font-weight: bold;
+    font-size: .75em;
+    transition: all .3s;
+}
+span:hover{
+    text-shadow: 0px 0px 5px #7fff00;
+    color: #7fff00;
+    cursor: pointer;
+}
+@media (max-device-width:500px){
+      .navbar a{
+          font-size: 4em;
+      }
+      #scroller{
+          font-size: 3em;
+      }
+      #text{
+          font-size: 3em;
+      }
+      h1{
+            font-size: 2em;
+      }
+      #cred{
+          font-size: 1.5em;
+      }
+  }
