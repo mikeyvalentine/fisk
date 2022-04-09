@@ -57,6 +57,9 @@ body{
     border: 2px solid rgb(178, 235, 178);
     box-shadow: 0px 0px 10px rgb(178, 235, 178);
 }
+#insta{
+    padding: 9px;
+}
 #insta:hover{
     background-color:rgb(245, 206, 255);
     border: 2px solid rgb(245, 206, 255);
@@ -78,15 +81,16 @@ body{
     margin: 0;
     padding: 0;
 }
-#spacer video{
+#spacervid{
     max-width: 600px;
-    width: 70vw;
+    width: 60vw;
 }
-#spacer img{
+#arrow{
     position: absolute;
     top: 90vh;
     width: 5vw;
     z-index: 100;
+    max-width: 50px;
 }
 #menu{
     position: absolute;
@@ -172,7 +176,7 @@ canvas {
 }
 #display video, #display img{
     width: 70vw;
-    max-width: 800px;
+    max-width: 750px;
     box-shadow: 1px 1px 10px black;
     border-radius: 5px;
 }
