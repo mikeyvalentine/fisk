@@ -96,7 +96,7 @@ img{
 }
 #menuitem video{
     margin: 10px;
-    max-width: 600px;
+    max-width: 500px;
     width: 70vw;
     box-shadow: 0px 1px 10px grey;
     transition: .3s all;
@@ -105,7 +105,7 @@ img{
 #menuitem img{
     border-radius: 10px;
     margin: 10px;
-    max-width: 600px;
+    max-width: 500px;
     width: 70vw;
     height: 70vw;
     max-height: 600px;
